@@ -1,0 +1,41 @@
+users:
+  hiog:
+    username: hiog
+    articleIds:
+      - 1
+    commentIds: []
+  kirk:
+    username: kirk
+    articleIds:
+      - 2
+      - 3
+    commentIds: []
+articles:
+  '1':
+    id: 1
+    title: oho/o/
+    url: ho/ojb
+    username: hiog
+    commentIds: []
+    upvotedBy:
+      - kirk
+    downvotedBy: []
+  '2':
+    id: 2
+    title: sdvsrvb
+    url: srfbsdrb
+    username: kirk
+    commentIds: []
+    upvotedBy: []
+    downvotedBy: []
+  '3':
+    id: 3
+    title: aresbsr
+    url: rbasrb
+    username: kirk
+    commentIds: []
+    upvotedBy: []
+    downvotedBy: []
+nextArticleId: 4
+comments: &ref_0 {}
+nextCommentId: *ref_0
